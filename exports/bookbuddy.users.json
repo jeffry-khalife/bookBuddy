@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "685d005529ffa2d54c1c2158"
+  },
+  "name": "Anna",
+  "email": "anna@laplateforme.io",
+  "password": "1234",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685d005529ffa2d54c1c2159"
+  },
+  "name": "Jeffry",
+  "email": "jeffry@laplateforme.io",
+  "password": "1234",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685d005529ffa2d54c1c215a"
+  },
+  "name": "Magali",
+  "email": "magali@laplateforme.io",
+  "password": "1234",
+  "__v": 0
+}]

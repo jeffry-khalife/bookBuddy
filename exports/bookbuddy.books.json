@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "685d2459a8d6fd6a19b460f1"
+  },
+  "title": "Le Petit Prince",
+  "author": "Antoine de Saint-Exupéry",
+  "pages": 96,
+  "category": "Roman",
+  "status": "à lire"
+}]
