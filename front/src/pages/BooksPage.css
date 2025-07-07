@@ -1,0 +1,140 @@
+body {
+  background-color: #A8DADC;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.books-page {
+  max-width: 1100px;
+  margin: 80px auto 0 auto;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  min-height: 80vh;
+}
+
+.books-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.books-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2563eb;
+  letter-spacing: 1px;
+  flex: 1;
+}
+
+.add-book-btn,
+.share-btn,
+.export-pdf-btn,
+.import-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.09);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.add-book-btn:hover,
+.share-btn:hover,
+.export-pdf-btn:hover,
+.import-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.export-pdf-btn {
+  background: #388e3c;
+  margin-left: 8px;
+}
+.export-pdf-btn:hover {
+  background: #256d1b;
+}
+
+.share-btn {
+  background: #1976d2;
+}
+.share-btn:hover {
+  background: #0d47a1;
+}
+
+.import-btn {
+  background: #ffa726;
+  color: #fff;
+  margin-left: 8px;
+}
+.import-btn:hover {
+  background: #fb8c00;
+  color: #fff;
+}
+
+.share-msg {
+  margin-left: 8px;
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.reward-badges-section {
+  margin: 24px 0;
+  text-align: center;
+}
+.reward-badges-section h3 {
+  margin-bottom: 12px;
+}
+
+.books-tools {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.books-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+  min-height: 200px;
+}
+
+.empty-state {
+  width: 100%;
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 60px;
+}
+
+@media (max-width: 800px) {
+  .books-page {
+    max-width: 100vw;
+    padding: 10px 2vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .books-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .books-tools {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .books-list {
+    gap: 1rem;
+    justify-content: center;
+  }
+}
