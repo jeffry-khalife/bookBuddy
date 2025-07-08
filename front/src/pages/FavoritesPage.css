@@ -1,0 +1,39 @@
+.favorites-page {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.07);
+}
+
+.favorites-page h2 {
+  font-size: 2rem;
+  color: #ffb400;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.books-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.empty-state {
+  text-align: center;
+  color: #bbb;
+  font-size: 1.2rem;
+  margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+  .favorites-page {
+    padding: 10px 2vw;
+  }
+  .books-list {
+    gap: 16px;
+  }
+}
